@@ -1,0 +1,172 @@
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url("/fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.eot");
+	src: url("/fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.woff2")
+			format("woff2"),
+		url("/fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.woff")
+			format("woff"),
+		url("/fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.ttf")
+			format("truetype"),
+		url("/fonts/HelveticaNeue-CondensedBold/HelveticaNeue-CondensedBold.svg")
+			format("svg");
+	font-weight: bold;
+	font-stretch: condensed;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url("/fonts/HelveticaNeue-CondensedMedium/HelveticaNeue-CondensedMedium.eot");
+	src: local("☺"),
+		url("/fonts/HelveticaNeue-CondensedMedium/HelveticaNeue-CondensedMedium.woff2")
+			format("woff2"),
+		url("/fonts/HelveticaNeue-CondensedMedium/HelveticaNeue-CondensedMedium.woff")
+			format("woff"),
+		url("/fonts/HelveticaNeue-CondensedMedium/HelveticaNeue-CondensedMedium.ttf")
+			format("truetype"),
+		url("/fonts/HelveticaNeue-CondensedMedium/HelveticaNeue-CondensedMedium.svg")
+			format("svg");
+	font-weight: 500;
+	font-stretch: condensed;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url("/fonts/HelveticaNeue-Condensed/HelveticaNeue-Condensed.eot");
+	src: local("☺"),
+		url("/fonts/HelveticaNeue-Condensed/HelveticaNeue-Condensed.woff2")
+			format("woff2"),
+		url("/fonts/HelveticaNeue-Condensed/HelveticaNeue-Condensed.woff")
+			format("woff"),
+		url("/fonts/HelveticaNeue-Condensed/HelveticaNeue-Condensed.ttf")
+			format("truetype"),
+		url("/fonts/HelveticaNeue-Condensed/HelveticaNeue-Condensed.svg")
+			format("svg");
+	font-weight: normal;
+	font-stretch: condensed;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.eot");
+	src: local("☺"),
+		url("/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.woff2")
+			format("woff2"),
+		url("/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.woff")
+			format("woff"),
+		url("/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.ttf")
+			format("truetype"),
+		url("/fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.svg")
+			format("svg");
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("/fonts/SourceSansPro-Bold/SourceSansPro-Bold.eot");
+	src: local("☺"),
+		url("/fonts/SourceSansPro-Bold/SourceSansPro-Bold.woff2") format("woff2"),
+		url("/fonts/SourceSansPro-Bold/SourceSansPro-Bold.woff") format("woff"),
+		url("/fonts/SourceSansPro-Bold/SourceSansPro-Bold.ttf") format("truetype"),
+		url("/fonts/SourceSansPro-Bold/SourceSansPro-Bold.svg") format("svg");
+	font-weight: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("/fonts/SourceSansPro-Regular/SourceSansPro-Regular.eot");
+	src: local("☺"),
+		url("/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff2")
+			format("woff2"),
+		url("/fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff")
+			format("woff"),
+		url("/fonts/SourceSansPro-Regular/SourceSansPro-Regular.ttf")
+			format("truetype"),
+		url("/fonts/SourceSansPro-Regular/SourceSansPro-Regular.svg") format("svg");
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("/fonts/SourceSansPro-Light/SourceSansPro-Light.eot");
+	src: local("☺"),
+		url("/fonts/SourceSansPro-Light/SourceSansPro-Light.woff2") format("woff2"),
+		url("/fonts/SourceSansPro-Light/SourceSansPro-Light.woff") format("woff"),
+		url("/fonts/SourceSansPro-Light/SourceSansPro-Light.ttf") format("truetype"),
+		url("/fonts/SourceSansPro-Light/SourceSansPro-Light.svg") format("svg");
+	font-weight: 300;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("/fonts/SourceSansPro-Italic/SourceSansPro-Italic.eot");
+	src: local("☺"),
+		url("/fonts/SourceSansPro-Italic/SourceSansPro-Italic.woff2")
+			format("woff2"),
+		url("/fonts/SourceSansPro-Italic/SourceSansPro-Italic.woff") format("woff"),
+		url("/fonts/SourceSansPro-Italic/SourceSansPro-Italic.ttf")
+			format("truetype"),
+		url("/fonts/SourceSansPro-Italic/SourceSansPro-Italic.svg") format("svg");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SourceSansPro";
+	src: url("/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic.eot");
+	src: local("☺"),
+		url("/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic.woff2")
+			format("woff2"),
+		url("/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic.woff")
+			format("woff"),
+		url("/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic.ttf")
+			format("truetype"),
+		url("/fonts/SourceSansPro-LightItalic/SourceSansPro-LightItalic.svg")
+			format("svg");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PTSerif";
+	src: url("/fonts/PTSerif-Bold/PTSerif-Bold.eot");
+	src: local("☺"), url("/fonts/PTSerif-Bold/PTSerif-Bold.woff2") format("woff2"),
+		url("/fonts/PTSerif-Bold/PTSerif-Bold.woff") format("woff"),
+		url("/fonts/PTSerif-Bold/PTSerif-Bold.ttf") format("truetype"),
+		url("/fonts/PTSerif-Bold/PTSerif-Bold.svg") format("svg");
+	font-weight: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PTSerif";
+	src: url("/fonts/PTSerif-Italic/PTSerif-Italic.eot");
+	src: local("☺"),
+		url("/fonts/PTSerif-Italic/PTSerif-Italic.woff2") format("woff2"),
+		url("/fonts/PTSerif-Italic/PTSerif-Italic.woff") format("woff"),
+		url("/fonts/PTSerif-Bold/PTSerif-Bold.ttf") format("truetype"),
+		url("/fonts/PTSerif-Italic/PTSerif-Italic.svg") format("svg");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PTSerif";
+	src: url("/fonts/PTSerif-Italic/PTSerif-Regular.eot");
+	src: local("☺"),
+		url("/fonts/PTSerif-Regular/PTSerif-Regular.woff2") format("woff2"),
+		url("/fonts/PTSerif-Regular/PTSerif-Regular.woff") format("woff"),
+		url("/fonts/PTSerif-Regular/PTSerif-Regular.ttf") format("truetype"),
+		url("/fonts/PTSerif-Regular/PTSerif-Regular.svg") format("svg");
+	font-weight: normal;
+	font-display: swap;
+}
