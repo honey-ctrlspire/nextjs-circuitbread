@@ -1,0 +1,124 @@
+.cols-auto {
+	column-count: auto;
+}
+.cols-3 {
+	column-count: 3;
+}
+.cols-w-320 {
+	column-width: 20rem;
+}
+.cols-gap-24 {
+	column-gap: 1.5rem;
+}
+
+.break-avoid {
+	page-break-inside: avoid;
+}
+
+.guide-content {
+	p {
+		margin-bottom: 1rem;
+	}
+
+	img {
+		max-width: -webkit-fill-available;
+	}
+
+	figure {
+		margin-bottom: 1rem !important;
+
+		img {
+			display: flex;
+			justify-content: center;
+			margin: auto;
+			margin-bottom: 0.9375rem;
+		}
+	}
+
+	figcaption {
+		text-align: center !important;
+		font-size: 0.75rem !important;
+		font-style: italic !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 0.875rem !important;
+	}
+
+	ol,
+	ul {
+		margin-top: 0;
+		margin-bottom: 1rem;
+		padding-left: 1.625rem;
+
+		li {
+			padding-left: 0.75rem;
+			margin-bottom: 0.3125rem;
+		}
+	}
+
+	li {
+		figure,
+		img {
+			display: inline;
+			padding: 0.3125rem;
+		}
+	}
+
+	ul {
+		list-style-type: disc;
+
+		li {
+			/*! purgecss start ignore */
+			&::marker {
+				font-size: 0.75rem;
+			}
+			/*! purgecss end ignore */
+		}
+
+		ul,
+		ol {
+			list-style-type: circle !important;
+
+			ul,
+			ol {
+				list-style-type: square !important;
+
+				ul,
+				ol {
+					list-style-type: disc !important;
+				}
+			}
+		}
+	}
+
+	ol {
+		list-style-type: decimal;
+
+		li {
+			/*! purgecss start ignore */
+			&::marker {
+				font-size: 0.9375rem !important;
+			}
+			/*! purgecss end ignore */
+		}
+
+		ul,
+		ol {
+			list-style-type: lower-alpha;
+			ul,
+			ol {
+				list-style-type: lower-roman;
+				ul,
+				ol {
+					list-style-type: decimal;
+				}
+			}
+		}
+	}
+}

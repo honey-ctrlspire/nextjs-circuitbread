@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/pages/*": ["pages/*"],
+			"@/common/*": ["common/*"],
+			"@/queries/*": ["queries/*"],
+			"@/styles/*": ["styles/*"],
+			"@/utils/*": ["utils/*"]
+		}
+	}
+}

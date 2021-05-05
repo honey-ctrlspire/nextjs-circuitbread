@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
 
-function Base({ children }) {
+function Base({ children, title }) {
 	return (
 		<div className="containerx">
 			<Head>
-				<title>A BETTER way to learn electronics | CircuitBread</title>
+				<title>{title ?? `A BETTER way to learn electronics`} | CircuitBread</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 

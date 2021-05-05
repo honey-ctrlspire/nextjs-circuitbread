@@ -2,8 +2,14 @@
 @tailwind components;
 
 @import "fonts";
+@import "study_guides";
+
 @tailwind utilities;
 
 body {
 	font-family: SourceSansPro;
+}
+
+.container-vh {
+	min-height: calc(100vh - 4.375rem);
 }

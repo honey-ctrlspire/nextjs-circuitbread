@@ -24,6 +24,14 @@ module.exports = {
 				86: 'rgba(0, 0, 0, 0.86)',
 			},
 			ebonyclay: '#26343f',
+			athensgray: '#f7f8fa',
+			athensgrayer: '#eff0f2',
+			mineshaft: {
+				DEFAULT: '#333333',
+				50: 'rgba(51, 51, 51, 0.5)',
+			},
+			boulder: '#747474',
+			dustygray: '#999999',
 		},
 		spacing: {
 			px: '1px',
@@ -49,6 +57,7 @@ module.exports = {
 			23: '1.4375rem',
 			24: '1.5rem',
 			25: '1.5625rem',
+			26: '1.625rem',
 			27: '1.6875rem',
 			28: '1.75rem',
 			30: '1.875rem',
@@ -79,6 +88,7 @@ module.exports = {
 			90: '5.625rem',
 			95: '5.9375rem',
 			100: '6.25rem',
+			222: '13.875rem',
 		},
 		fontSize: {
 			8: '0.45em',
@@ -97,6 +107,7 @@ module.exports = {
 			23: '1.4375rem',
 			24: '1.5rem',
 			25: '1.5625rem',
+			27: '1.6875rem',
 			28: '1.75rem',
 			30: '1.875rem',
 			31: '1.9375rem',
@@ -109,6 +120,10 @@ module.exports = {
 			60: '3.75rem',
 			80: '5rem',
 		},
+		boxShadow: {
+			sm: '0 0 2px 0 rgb(0 0 0 / 10%)',
+			md: '0 0.125rem 0.25rem 0 rgb(0 0 0 / 15%)',
+		}
 	},
 	variants: {
 		extend: {},
