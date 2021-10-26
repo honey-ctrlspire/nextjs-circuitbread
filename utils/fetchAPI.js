@@ -16,7 +16,7 @@ export default class FetchAPI {
 		//   .then((result) => console.log(result));
 	}
 
-	static getBySlug({ query }, slug) {
+	static getByParams({ query }, params) {
 		return fetch(graphQLApiUrl, {
 			method: 'POST',
 			headers: {
@@ -25,7 +25,7 @@ export default class FetchAPI {
 			},
 			body: JSON.stringify({
 				query,
-				variables: { slug },
+				variables: { ...params },
 			}),
 		}).then((res) => res.json());
 	}

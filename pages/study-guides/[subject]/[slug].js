@@ -1,6 +1,6 @@
 import { QueryClient, useQuery } from 'react-query';
 import { dehydrate } from 'react-query/hydration';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 import FetchAPI from '../../../utils/FetchAPI';
 import { GetStudyGuideLesson } from '../../../queries/studyGuides.js';
@@ -12,7 +12,7 @@ export async function getServerSideProps({ params }) {
 	const queryClient = new QueryClient();
 
 	await queryClient.prefetchQuery(params.slug, () =>
-		FetchAPI.getBySlug(GetStudyGuideLesson, params.slug)
+		FetchAPI.getByParams(GetStudyGuideLesson, { slug: params.slug })
 	);
 
 	return {
@@ -27,19 +27,19 @@ export default function Lesson() {
 	const { slug } = router.query;
 
 	const { data, isLoading } = useQuery(slug, () =>
-		FetchAPI.getBySlug(GetStudyGuideLesson, slug)
+		FetchAPI.getByParams(GetStudyGuideLesson, { slug })
 	);
 
 	const lesson = data ? data.data.entry : null;
 	let pageTitle = 'Study Guides';
 
-	pageTitle = lesson ? `${lesson.title} | ${lesson.subject.title} - ${pageTitle}` : pageTitle;
+	pageTitle = lesson
+		? `${lesson.title} | ${lesson.subject.title} - ${pageTitle}`
+		: pageTitle;
 
 	return (
 		<StudyGuide isLoading={isLoading} pageTitle={pageTitle}>
-			{!lesson ? 'No lesson' :
-				<StudyGuideLesson lesson={lesson} />
-			}
+			{!lesson ? 'No lesson' : <StudyGuideLesson lesson={lesson} />}
 		</StudyGuide>
-	)
+	);
 }

@@ -1,6 +1,8 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
 	purge: [],
-	// purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+	// purge: ['./pages/**/*.{js,ts,jsx,tsx}','./components/**/*.{js,ts,jsx,tsx}'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		colors: {
@@ -17,21 +19,29 @@ module.exports = {
 			},
 			black: {
 				DEFAULT: '#000',
-				10: 'rgba(0, 0, 0, 0.1)',
-				30: 'rgba(0, 0, 0, 0.3)',
-				50: 'rgba(0, 0, 0, 0.5)',
-				70: 'rgba(0, 0, 0, 0.7)',
-				86: 'rgba(0, 0, 0, 0.86)',
+				10: 'rgba(0,0,0,0.1)',
+				30: 'rgba(0,0,0,0.3)',
+				50: 'rgba(0,0,0,0.5)',
+				70: 'rgba(0,0,0,0.7)',
+				86: 'rgba(0,0,0,0.86)',
 			},
 			ebonyclay: '#26343f',
 			athensgray: '#f7f8fa',
 			athensgrayer: '#eff0f2',
 			mineshaft: {
 				DEFAULT: '#333333',
-				50: 'rgba(51, 51, 51, 0.5)',
+				50: 'rgba(51,51,51,0.5)',
+				70: 'rgba(51,51,51,0.7)',
+				80: 'rgba(51,51,51,0.8)',
+			},
+			gray: {
+				DEFAULT: '#808080',
+				20: 'rgba(128,128,128,0.20)',
 			},
 			boulder: '#747474',
 			dustygray: '#999999',
+			mercury: '#e8e8e8',
+			crusta: '#ff7a38',
 		},
 		spacing: {
 			px: '1px',
@@ -123,7 +133,16 @@ module.exports = {
 		boxShadow: {
 			sm: '0 0 2px 0 rgb(0 0 0 / 10%)',
 			md: '0 0.125rem 0.25rem 0 rgb(0 0 0 / 15%)',
-		}
+		},
+		borderRadius: {
+			...defaultTheme.borderRadius,
+			3: '0.1875rem',
+			10: '0.625rem',
+		},
+		opacity: {
+			...defaultTheme.opacity,
+			45: '.45',
+		},
 	},
 	variants: {
 		extend: {},
