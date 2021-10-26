@@ -1,6 +1,6 @@
 import { default as Layout } from '../../common/layouts/Base';
 import Navbar from './_partials/Navbar';
-import Spinner from './_partials/Spinner';
+import Spinner from '../../common/Spinner';
 
 export default function StudyGuide({ pageTitle, isLoading, children }) {
 	return (
